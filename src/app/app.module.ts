@@ -13,24 +13,23 @@ import { LangComponent } from './lang.control';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CustomAutocompleteControlRenderer,
-    LangComponent,
-    DataDisplayComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    JsonFormsModule,
-    JsonFormsAngularMaterialModule,
-    MatAutocompleteModule,
-    MatProgressSpinnerModule,
-    HttpClientModule
-  ],
-  schemas: [],
-  entryComponents: [CustomAutocompleteControlRenderer, LangComponent, DataDisplayComponent],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        CustomAutocompleteControlRenderer,
+        LangComponent,
+        DataDisplayComponent
+    ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        JsonFormsModule,
+        JsonFormsAngularMaterialModule,
+        MatAutocompleteModule,
+        MatProgressSpinnerModule,
+        HttpClientModule
+    ],
+    schemas: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }
